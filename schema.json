@@ -1211,84 +1211,6 @@
       "title": "IfStatement[TypeVar]",
       "type": "object"
     },
-    "IfStatement_Union_CommandTestElement__PythonTestElement__DownstreamTestElement__": {
-      "properties": {
-        "if": {
-          "title": "If",
-          "type": "string"
-        },
-        "then": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/CommandTestElement"
-            },
-            {
-              "$ref": "#/$defs/PythonTestElement"
-            },
-            {
-              "$ref": "#/$defs/DownstreamTestElement"
-            },
-            {
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/$defs/CommandTestElement"
-                  },
-                  {
-                    "$ref": "#/$defs/PythonTestElement"
-                  },
-                  {
-                    "$ref": "#/$defs/DownstreamTestElement"
-                  }
-                ]
-              },
-              "type": "array"
-            }
-          ],
-          "title": "Then"
-        },
-        "else": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/CommandTestElement"
-            },
-            {
-              "$ref": "#/$defs/PythonTestElement"
-            },
-            {
-              "$ref": "#/$defs/DownstreamTestElement"
-            },
-            {
-              "items": {
-                "anyOf": [
-                  {
-                    "$ref": "#/$defs/CommandTestElement"
-                  },
-                  {
-                    "$ref": "#/$defs/PythonTestElement"
-                  },
-                  {
-                    "$ref": "#/$defs/DownstreamTestElement"
-                  }
-                ]
-              },
-              "type": "array"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Else"
-        }
-      },
-      "required": [
-        "if",
-        "then"
-      ],
-      "title": "IfStatement[Union[CommandTestElement, PythonTestElement, DownstreamTestElement]]",
-      "type": "object"
-    },
     "IfStatement_Union_UrlSource__GitRev__GitTag__GitBranch__BaseGitSource__LocalSource__": {
       "properties": {
         "if": {
@@ -2825,7 +2747,7 @@
               "$ref": "#/$defs/DownstreamTestElement"
             },
             {
-              "$ref": "#/$defs/IfStatement_Union_CommandTestElement__PythonTestElement__DownstreamTestElement__"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2840,7 +2762,7 @@
                     "$ref": "#/$defs/DownstreamTestElement"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement_Union_CommandTestElement__PythonTestElement__DownstreamTestElement__"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
