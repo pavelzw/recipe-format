@@ -563,7 +563,7 @@ class ComplexRecipe(BaseRecipe):
 class SimpleRecipe(BaseRecipe):
     package: SimplePackage = Field(..., description="The package name and version.")
 
-    test: ConditionalList[TestElement] | None = Field(
+    tests: ConditionalList[TestElement] | None = Field(
         None, description="Tests to run after packaging"
     )
 
