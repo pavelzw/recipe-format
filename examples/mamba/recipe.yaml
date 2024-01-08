@@ -59,7 +59,7 @@ outputs:
           - if: win
             then: python
 
-    test:
+    tests:
       - script:
           - if: unix
             then:
@@ -151,16 +151,14 @@ outputs:
         - conda >=4.14,<23.4
         - ${{ pin_subpackage('libmambapy', exact=True) }}
 
-    test:
-      - imports: [mamba]
+    tests:
+      - python:
+          imports:
+            - mamba
+          pip_check: true # defaults to true
 
-      - extra_requirements:
-          run:
-            - pip
-        script:
+      - script:
           - mamba --help
-          # check dependencies with pip
-          - pip check
           - if: win
             then:
               - if exist %PREFIX%\condabin\mamba.bat (exit 0) else (exit 1)
@@ -170,11 +168,9 @@ outputs:
               # these tests work when run on win, but for some reason not during conda build
               - mamba create -n test_py2 python=2.7 --dry-run
               - mamba install xtensor xsimd -c conda-forge --dry-run
-
           - if: unix
             then:
               - test -f ${PREFIX}/condabin/mamba
-
           # for some reason tqdm doesn't have a proper colorama dependency so pip check fails
           # but that's completely unrelated to mamba
           - python -c "import mamba._version; assert mamba._version.__version__ == '${{ mamba_version }}'"

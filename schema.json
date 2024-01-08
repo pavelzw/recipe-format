@@ -68,7 +68,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -78,7 +78,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -160,7 +160,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -170,7 +170,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -330,7 +330,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -340,7 +340,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -378,7 +378,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -388,7 +388,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -461,7 +461,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -471,7 +471,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -676,7 +676,7 @@
               "$ref": "#/$defs/Output"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -685,7 +685,7 @@
                     "$ref": "#/$defs/Output"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -735,7 +735,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -745,7 +745,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -762,7 +762,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -771,7 +771,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -852,7 +852,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -862,7 +862,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -904,7 +904,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -914,7 +914,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -997,7 +997,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -1007,7 +1007,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -1090,7 +1090,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -1100,7 +1100,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -1173,7 +1173,7 @@
       "title": "GitTag",
       "type": "object"
     },
-    "IfStatement": {
+    "IfStatement_TypeVar_": {
       "properties": {
         "if": {
           "title": "If",
@@ -1208,7 +1208,7 @@
         "if",
         "then"
       ],
-      "title": "IfStatement",
+      "title": "IfStatement[TypeVar]",
       "type": "object"
     },
     "IfStatement_Union_CommandTestElement__PythonTestElement__DownstreamTestElement__": {
@@ -1413,7 +1413,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -1423,7 +1423,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -1441,7 +1441,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -1451,7 +1451,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -1518,7 +1518,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -1528,7 +1528,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -1553,7 +1553,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -1563,7 +1563,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -1655,7 +1655,7 @@
               "$ref": "#/$defs/LocalSource"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -1679,7 +1679,7 @@
                     "$ref": "#/$defs/LocalSource"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -1717,8 +1717,20 @@
           "default": null,
           "description": "The package dependencies"
         },
-        "tests": {
+        "testa": {
           "anyOf": [
+            {
+              "$ref": "#/$defs/CommandTestElement"
+            },
+            {
+              "$ref": "#/$defs/PythonTestElement"
+            },
+            {
+              "$ref": "#/$defs/DownstreamTestElement"
+            },
+            {
+              "$ref": "#/$defs/IfStatement_TypeVar_"
+            },
             {
               "items": {
                 "anyOf": [
@@ -1732,26 +1744,7 @@
                     "$ref": "#/$defs/DownstreamTestElement"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement_Union_CommandTestElement__PythonTestElement__DownstreamTestElement__"
-                  },
-                  {
-                    "items": {
-                      "anyOf": [
-                        {
-                          "$ref": "#/$defs/CommandTestElement"
-                        },
-                        {
-                          "$ref": "#/$defs/PythonTestElement"
-                        },
-                        {
-                          "$ref": "#/$defs/DownstreamTestElement"
-                        },
-                        {
-                          "$ref": "#/$defs/IfStatement_Union_CommandTestElement__PythonTestElement__DownstreamTestElement__"
-                        }
-                      ]
-                    },
-                    "type": "array"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -1763,7 +1756,7 @@
           ],
           "default": null,
           "description": "Tests to run after packaging",
-          "title": "Tests"
+          "title": "Testa"
         },
         "about": {
           "anyOf": [
@@ -1888,7 +1881,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -1898,7 +1891,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -1936,7 +1929,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -1946,7 +1939,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2018,7 +2011,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2028,7 +2021,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2055,7 +2048,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2064,7 +2057,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2108,7 +2101,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2118,7 +2111,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2174,7 +2167,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2184,7 +2177,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2216,7 +2209,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2225,7 +2218,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2245,7 +2238,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2254,7 +2247,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2274,7 +2267,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2283,7 +2276,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2303,7 +2296,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2312,7 +2305,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2332,7 +2325,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2341,7 +2334,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2380,7 +2373,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2389,7 +2382,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2409,7 +2402,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2418,7 +2411,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2438,7 +2431,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2447,7 +2440,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2467,7 +2460,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2476,7 +2469,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2496,7 +2489,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2505,7 +2498,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2533,7 +2526,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2543,7 +2536,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2570,7 +2563,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2580,7 +2573,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2598,7 +2591,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2608,7 +2601,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2626,7 +2619,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2636,7 +2629,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2820,7 +2813,7 @@
           ],
           "description": "The package name and version."
         },
-        "test": {
+        "testb": {
           "anyOf": [
             {
               "$ref": "#/$defs/CommandTestElement"
@@ -2832,7 +2825,7 @@
               "$ref": "#/$defs/DownstreamTestElement"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_Union_CommandTestElement__PythonTestElement__DownstreamTestElement__"
             },
             {
               "items": {
@@ -2847,7 +2840,7 @@
                     "$ref": "#/$defs/DownstreamTestElement"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_Union_CommandTestElement__PythonTestElement__DownstreamTestElement__"
                   }
                 ]
               },
@@ -2859,7 +2852,7 @@
           ],
           "default": null,
           "description": "Tests to run after packaging",
-          "title": "Test"
+          "title": "Testb"
         },
         "requirements": {
           "anyOf": [
@@ -2890,7 +2883,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2900,7 +2893,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2921,7 +2914,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2931,7 +2924,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2958,7 +2951,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2967,7 +2960,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -2987,7 +2980,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -2996,7 +2989,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -3024,7 +3017,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -3034,7 +3027,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -3139,7 +3132,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -3149,7 +3142,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },
@@ -3167,7 +3160,7 @@
               "type": "string"
             },
             {
-              "$ref": "#/$defs/IfStatement"
+              "$ref": "#/$defs/IfStatement_TypeVar_"
             },
             {
               "items": {
@@ -3177,7 +3170,7 @@
                     "type": "string"
                   },
                   {
-                    "$ref": "#/$defs/IfStatement"
+                    "$ref": "#/$defs/IfStatement_TypeVar_"
                   }
                 ]
               },

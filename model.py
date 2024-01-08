@@ -28,15 +28,16 @@ class StrictBaseModel(BaseModel):
 # Conditional formatting  #
 ###########################
 
+
 T = TypeVar("T")
-ConditionalList = Union[T, "IfStatement[T]", list[Union[T, "IfStatement[T]"]]]
-
-
 class IfStatement(BaseModel, Generic[T]):
     expr: str = Field(..., alias="if")
     then: T | list[T]
     otherwise: T | list[T] | None = Field(None, alias="else")
 
+
+S = TypeVar("S")
+ConditionalList = S | IfStatement[S] | list[S | IfStatement[S]]
 
 ###################
 # Package section  #
@@ -506,9 +507,7 @@ class Output(BaseModel):
 
     requirements: Requirements | None = Field(None, description="The package dependencies")
 
-    tests: list[
-        TestElement | IfStatement[TestElement] | list[TestElement | IfStatement[TestElement]]
-    ] | None = Field(None, description="Tests to run after packaging")
+    testa: ConditionalList[TestElement] | None = Field(None, description="Tests to run after packaging")
 
     about: About | None = Field(
         None,
@@ -563,7 +562,11 @@ class ComplexRecipe(BaseRecipe):
 class SimpleRecipe(BaseRecipe):
     package: SimplePackage = Field(..., description="The package name and version.")
 
-    test: ConditionalList[TestElement] | None = Field(
+    # testb: ConditionalList[TestElement] | None = Field(
+    #     None, description="Tests to run after packaging"
+    # )
+
+    testb: TestElement | IfStatement[TestElement] | list[TestElement | IfStatement[TestElement]] | None = Field(
         None, description="Tests to run after packaging"
     )
 

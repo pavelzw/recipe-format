@@ -31,7 +31,7 @@ requirements:
   run_constraints:
     - xsimd >=8.0.3,<10
 
-test:
+testb:
   - script:
       - if: unix
         then:
@@ -48,15 +48,15 @@ test:
   # compile a test package
   - if: unix
     then:
-      files:
+      filaaes:
         source:
           - testfiles/cmake/*
-      extra_requirements:
+      exaadwdwdtra_requirements:
         build:
           - ${{ compiler('cxx') }}
           - cmake
           - ninja
-      script: |
+      scrispt: |
         cd testiles/cmake/
         mkdir build; cd build
         cmake -GNinja ..
